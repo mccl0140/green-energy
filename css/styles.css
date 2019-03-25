@@ -1,0 +1,176 @@
+/*
+Google Fonts: 
+font-family: 'Martel', serif;
+font-family: 'Khula', sans-serif;
+
+Colours:
+tan: #d9d9a5
+light green: #64ae60
+green: #1e6a3c
+light blue: #84c3ca
+teal: #1a6467
+*/
+
+.navbar-brand {
+    width: 6%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+.navbar {
+    background-color: #64ae60 !important;
+}
+
+.navbar img {
+    margin: 0 auto;
+    width: 15%;
+}
+
+.active {
+    background-color: #84c3ca;
+}
+
+#active {
+    background-color: #64ae60;
+}
+
+.masthead {
+    text-align: center;
+    background-image: url(../images/grass.jpg);
+    background-color: #64ae60;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead,
+h1 {
+    padding-top: 10rem;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+body {
+    background-color: #d9d9a5;
+}
+
+.controls {
+    margin-top: 8%;
+}
+
+article img {
+    width: 70%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+article h3 {
+    margin-top: 20px;
+    font-family: 'Martel', serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #1a6467;
+}
+
+button {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #84c3ca;
+    border: none;
+    margin-right: 3%;
+    align-content: center;
+    padding: 10px;
+}
+
+button:hover {
+    color: #d9d9a5;
+}
+
+button:focus {
+    outline: none;
+}
+
+.controls {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Martel', serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Khula', sans-serif;
+    font-size: 0.75rem;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.center {
+    text-align: center;
+}
+
+.nav-link {
+    font-family: 'Khula', sans-serif;
+    font-size: 1.25rem;
+    color: white !important;
+    padding-left: 15px !important;
+}
+
+.nav-link:hover {
+    color: darkgray !important;
+}
+
+.footer-link {
+    color: white;
+    font-family: 'Khula', sans-serif;
+    font-size: 1rem;
+    padding-left: 10px;
+    text-decoration: none !important;
+}
+
+.footer-link:hover {
+    color: #84c3ca;
+}
+
+footer {
+    background-color: #1e6a3c;
+    padding: 10px;
+}
+
+footer i {
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
+footer i:hover {
+    color: #84c3ca;
+}
+
+.icons {
+    position: relative;
+    float: right;
+    padding-left: 20%;
+}
+
+
+/*DESKTOP FONT SIZE*/
+@media only screen and (min-width: 60rem) {
+
+    h1,
+    h2,
+    h3 {
+        font-size: 2rem;
+    }
+
+    p,
+    a {
+        font-size: 1rem;
+    }
+}
